@@ -82,7 +82,7 @@
                             <img src="img/listing/details/ld-icon.png" alt="">
                         </div>
                         <div class="listing__hero__text">
-                            <h2>킷사서울</h2>
+                            <h2>유가네 닭갈비 부천시청점(<span style="color:red">+3,792원</span>)</h2>
                             <div class="listing__hero__widget">
                                 <div class="listing__hero__widget__rating">
                                     <span class="icon_star"></span>
@@ -117,6 +117,83 @@
                         <div class="listing__details__about">
                             <h4>개요</h4>
                             <p>안녕하세요^^ 샤로수길맛집 킷사서울입니다. <br/> '킷사서울 '은 교토의 오반자이에서 영감을 받아 다양한 일본 한상 차림을 준비하였습니다.</p>
+                            <br/>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-6">
+                                    <p>주소</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-9">
+                                    <p>서울특별시 용산구 대사관로5길 28</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-6">
+                                    <p>전화번호</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-9">
+                                    <p>02-794-0282</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-6">
+                                    <p>음식 종류</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-9">
+                                    <p>기타 양식</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-6">
+                                    <p>가격대</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-9">
+                                    <p>만원-2만원</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-6">
+                                    <p>휴일</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-9">
+                                    <p>일, 월</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-6">
+                                    <p>메뉴</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-9">
+                                    <p>단호박 수프 (S): 4,000원</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-6">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-9">
+                                    <p>퀴노아 그레인 보울: 13,000원</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-6">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-9">
+                                    <p>아보카도 샐러드: 12,500원</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-6">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-9">
+                                    <p>애플 루꼴라 샌드위치: 10,000원</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-6">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-9">
+                                    <p>베이컨 칠리카도 샌드위치: 11,500원</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="listing__details__amenities">
                             <h4>평가모형</h4>
@@ -134,7 +211,7 @@
                                     <h6>주방장 경력 : <strong>10년</strong></h6>
                                 </div>
                             </div>
-                            <canvas id="myChart" width="400" height="400"></canvas>
+                            <canvas id="myChart" width="400" height="150"></canvas>
                         </div>
                         <div class="listing__details__gallery">
                             <h4>사진</h4>
@@ -501,23 +578,23 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
     <script>
         const labels = [
-            'January',
-            'February',
-            'March',
-            'April',
-            'May',
-            'June',
+            '1월',
+            '2월',
+            '3월',
+            '4월',
+            '5월',
+            '6월',
+            '7월',
         ];
         const data = {
         labels: labels,
         datasets: [{
-            label: '킷사서울',
+            label: '유가네 닭갈비 부천시청점',
             backgroundColor: 'rgb(255, 99, 132)',
             borderColor: 'rgb(255, 99, 132)',
-            data: [0, 10, 5, 2, 20, 30, 45],
+            data: [0, 23, 5, 2, 7, 45, 17],
         }]
         };
         const config = {
